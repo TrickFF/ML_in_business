@@ -37,15 +37,14 @@
 
 Модель: SVM
 
-### Для запуска модели необходимо клонировать репозиторий
+### Для запуска модели необходимо клонировать ветку репозитория
 ```
-$ git clone https://github.com/TrickFF/ML_in_business/tickets_cat_prediction_model_flask_server.git
-$ cd tickets_cat_prediction_model_flask_server
+$ git clone https://github.com/TrickFF/ML_in_business -b tickets_cat_prediction_model_flask_server
+$ cd ML_in_business
 ```
 Загрузить необходимые библиотеки для Python:
 ```
-$ pip install -r requirements_model.txt
-$ pip install -r requirements_web_server.txt
+$ pip install -r requirements.txt
 ```
 Запустить run_server.py в фоновом режиме (загружает модель, преобразует данные и выдает предсказание)
 ```
