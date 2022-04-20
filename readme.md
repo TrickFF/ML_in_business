@@ -41,15 +41,15 @@
 ```
 $ git clone https://github.com/TrickFF/ML_in_business -b tickets_cat_prediction_model_flask_server
 ```
-Перейти в папку ML_in_business
+- Перейти в папку ML_in_business
 ```
 $ cd ML_in_business
 ```
-Загрузить необходимые библиотеки для Python:
+- Загрузить необходимые библиотеки для Python:
 ```
 $ pip install -r requirements.txt
 ```
-Запустить скрипты run_server.py (загружает модель, преобразует данные и выдает предсказание) и run_front_server.py (згружает web-сервер для взаимодействия с моделью через web-интерфейс)
+- Запустить скрипты run_server.py (загружает модель, преобразует данные и выдает предсказание) и run_front_server.py (згружает web-сервер для взаимодействия с моделью через web-интерфейс)
 ```
 $ python run_server.py & python front/run_front_server.py
 ```
@@ -57,7 +57,6 @@ $ python run_server.py & python front/run_front_server.py
 ```
 $ python3 run_server.py & python3 front/run_front_server.py
 ```
-
 - Далее запустить ноутбук preds_request.ipynb для ознакомления с типовыми обращениями.
 - После чего можно открыть браузер и перейти на адрес localhost:8181 или 127.0.0.1:8181. Данный доступ к модели работает только локально на ПК.
 Если необходимо предоставить доступ к модели по сети, то в файлах run_server.py и run_front_server.py вместо 127.0.0.1 следует указать IP адрес, по которому модель будет доступна в сети. Заходить на web-интерфейс также необходимо по новому адресу, т.е. IP:8181.
