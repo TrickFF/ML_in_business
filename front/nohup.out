@@ -1,0 +1,45 @@
+ * Serving Flask app 'run_front_server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 165-244-067
+ * Running on http://127.0.0.1:8181/ (Press CTRL+C to quit)
+127.0.0.1 - - [15/Apr/2022 18:13:12] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:11:18] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:11:35] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 19:11:35] "GET /predicted/2 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:12:05] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:16:49] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:16:54] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:17:03] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 19:17:03] "GET /predicted/4 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:17:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:32:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:58:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 19:58:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:09:48] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:09:54] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 20:09:54] "GET /predicted/10 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:09:59] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:10:06] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 20:10:06] "GET /predicted/1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:10:13] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:10:27] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 20:10:27] "GET /predicted/4 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:10:30] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:10:37] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 20:10:37] "GET /predicted/10 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:42:48] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 20:43:25] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 20:43:25] "GET /predicted/7 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 21:37:39] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 21:37:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 23:52:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 23:53:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 23:53:40] "GET /predict_form HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 23:54:08] "POST /predict_form HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2022 23:54:08] "GET /predicted/4 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2022 23:54:31] "GET /predict_form HTTP/1.1" 200 -
